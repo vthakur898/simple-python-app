@@ -1,1 +1,3 @@
-# simple-python-app
+# Simple Python App
+
+A simple Python application for DevOps practice.
