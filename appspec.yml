@@ -1,0 +1,17 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /opt/simple-python-app
+
+hooks:
+  ApplicationStart:
+    - location: start_container.sh
+      timeout: 300
+      runas: root
+
+  ApplicationStop:
+    - location: stop_container.sh
+      timeout: 300
+      runas: root
