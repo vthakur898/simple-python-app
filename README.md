@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Simple Python App
 
 A small Flask application designed for DevOps practice.
@@ -58,3 +59,6 @@ docker rm simple-python-app
 - `appspec.yml` - AWS CodeDeploy configuration
 - `start_container.sh` - starts the Docker container
 - `stop_container.sh` - stops the Docker container
+=======
+# simple-python-app
+>>>>>>> 39a414a42da830f08213aedd83bec8ecf556cb42
